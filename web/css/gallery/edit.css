@@ -1,0 +1,198 @@
+/* ТЕСТ */
+.myTest {
+    text-decoration: none;
+    color: #8a4316;
+    font-weight: bold;
+    font-style: italic;
+    color: #ff0ee2;
+
+}
+
+/*-----Переопределение стилей предустановленных элементов------*/
+.control-label {
+
+}
+
+/*---- Общие стили ---- */
+button[type = 'submit']#authorization {
+    color: rgba(60, 118, 61, 0.77);
+    background: rgba(197, 239, 155, 0.61);
+    border-bottom: solid 3px rgba(60, 118, 61, 0.17);
+    border-left: solid 3px rgba(60, 118, 61, 0.17);
+    border-top: solid 3px rgba(148, 255, 40, 0);
+    border-right: solid 3px rgba(148, 255, 40, 0);
+    border-radius: 5px;
+    outline: none;
+    font-style: italic;
+
+}
+
+button[type = 'submit']#authorization:hover {
+    border-bottom-color: rgba(10, 10, 4, 0.25);
+    border-left-color: rgba(10, 10, 4, 0.25);
+    color: #191f19;
+}
+
+button[type = 'submit']#authorization:active {
+    color: #191f19;
+    border: solid 2px rgba(10, 10, 4, 0.25);
+    border-top: solid 3px rgba(148, 255, 40, 0);
+    border-right: solid 3px rgba(148, 255, 40, 0);
+
+}
+
+/*----авторизация-----*/
+p#authorization {
+    color: darkslategray;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+/*.edit-content input {
+    color: #3c763d;
+    font-weight: bold;
+    font-size: 1.1em;
+    background: rgba(92, 167, 49, 0.24);
+}
+*/
+#editform-userlogin, #editform-userpassword {
+    color: #3c763d;
+    font-weight: bold;
+    font-size: 1.1em;
+    background: rgba(92, 167, 49, 0.24);
+}
+
+/*----edit-widget----*/
+.edit-widget {
+    color: #00462e;
+    margin-top: 0;
+}
+
+/*----edit-menu----*/
+.edit-menu {
+
+}
+
+.edit-menu:hover {
+
+}
+
+.edit-menu p {
+    margin: 5px 0 5px 0;
+    text-align: left;
+    font-style: italic;
+    font-weight: 900;
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+
+.edit-menu p:hover {
+    background: rgba(92, 184, 92, 0.28);
+    cursor: move;
+}
+
+.edit-menu .edit-command {
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    float: right;
+    opacity: 0.4;
+}
+
+.edit-menu .edit-command:hover {
+    opacity: 1.0;
+}
+
+.edit-menu .img-delete {
+    background: url("../../images/gallery/site-elements/delete.png");
+}
+
+.edit-menu .img-add {
+    background: url("../../images/gallery/site-elements/add.png");
+}
+
+.edit-menu .img-change {
+    background: url("../../images/gallery/site-elements/change.png");
+}
+
+/* ---edit-content----*/
+.edit-content {
+    border-left: darkgray 1px solid;
+    color: #00462e;
+}
+
+.edit-content button {
+    padding: 4px;
+}
+
+.edit-content .delete button, .edit-content .delete select {
+    color: #e80007;
+    background: rgba(251, 81, 97, 0.28);
+}
+
+.edit-content .delete button:hover {
+    background: rgba(249, 0, 23, 0.75);
+    color: white;
+}
+
+.edit-content .change input, .edit-content .change button, .edit-content .change select {
+    color: #00294c;
+    background: rgba(51, 153, 183, 0.37)
+}
+
+.edit-content .change input:focus, .edit-content .change button:hover {
+    background: rgba(0, 108, 125, 0.73);
+    color: white;
+}
+
+.edit-content .add input, .edit-content .add button, .edit-content .add select {
+    color: #007102;
+    background: rgba(92, 184, 92, 0.28);
+}
+
+.edit-content .add input:focus, .edit-content .add button:hover {
+    background: rgba(14, 80, 6, 0.61);
+    color: white;
+}
+
+.edit-message {
+
+}
+
+.edit-title {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+#load-img {
+    float: left;
+}
+
+div#edit-result {
+    margin-left: 100px;
+}
+
+.edit-result {
+    color: yellow;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.1em;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: rgba(10, 10, 10, 0.7);
+}
+
+#add-work {
+    clear: left;
+}
+
+.direction, .user, .work {
+    color: #000;
+}

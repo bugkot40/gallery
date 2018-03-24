@@ -1,0 +1,97 @@
+/*стили переопределяющие gallery.css*/
+@media (min-width: 768px) {
+    div.nav {
+        margin-top: 35px;
+    }
+}
+
+.carousel-inner{
+    margin-top: -15px;
+}
+
+div .container{
+    margin-top: 0;
+}
+
+/*стили для меню портфолио*/
+
+div#portfolio-nav {
+    background: rgba(0, 0, 0, 0.39);
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    z-index: 10500;
+}
+
+a.portfolio-nav {
+    display: block;
+    color: white;
+    float: right;
+    padding: 2px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a.portfolio-nav:hover {
+    font-style: normal;
+    color: greenyellow;
+}
+
+p.portfolio-nav {
+    margin: 0 20px 0 5px;
+}
+
+p#visiting-title {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+img#visiting-avatar {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 11000;
+    opacity: 0.8;
+}
+
+div#visiting-close, div#visiting-load {
+    position: absolute;
+    z-index: 11001;
+    opacity: 0.7;
+}
+
+div#visiting-close {
+    display: none;
+    left: 230px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../../images/gallery/site-elements/visiting_close.png");
+}
+
+div#visiting-load {
+    display: none;
+    left: 200px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../../images/gallery/site-elements/visiting_load.png");
+}
+
+div#visiting-close:hover {
+    background-image: url("../../images/gallery/site-elements/visiting_close_hover.png");
+    opacity: 0.5;
+}
+
+div#visiting-load:hover {
+    background-image: url("../../images/gallery/site-elements/visiting_load_hover.png");
+    opacity: 0.5;
+}
+
+#visiting-title:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
